@@ -4,8 +4,8 @@
     "description": "Removes the stupid dog image from Twitter",
     "version": "1.0",
     "action": {
-      "default_popup": "popup/hello.html",
-      "default_icon": "images/hello_extensions.png"
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/icon128.png"
     },
     "content_scripts": [
         {

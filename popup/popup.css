@@ -1,0 +1,22 @@
+body {
+    min-width: 300px;
+}
+
+
+h1 {
+ font-family: 'Allerta', Helvetica, Arial, sans-serif;
+ font-size: 50px;
+ line-height: 55px;
+}
+
+h1 {
+ font-family: 'Allerta', Helvetica, Arial, sans-serif;
+ font-size: 25px;
+ line-height: 30px;
+}
+ 
+label {
+ font-family: 'Crimson Text', Georgia, Times, serif;
+ font-size: 16px;
+ line-height: 25px;
+}
