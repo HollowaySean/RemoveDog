@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Remove Dog",
+    "description": "Removes the stupid dog image from Twitter",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/hello.html",
+      "default_icon": "images/hello_extensions.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["images/bird.png"],
+            "matches": ["https://twitter.com/*"]
+        }
+    ]
+  }
